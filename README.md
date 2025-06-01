@@ -55,7 +55,9 @@ Revolutionizing talent acquisition with intelligent automation. Accurately ranks
 
 ## Future Enhancements
 
-- Add resume keyword extraction.
+
+- Add resume keyword extraction
+.
 - Improve UI/UX with better visualizations.
 - Integrate multiple job descriptions for comparison.
 
@@ -72,3 +74,10 @@ For any queries, reach out via:
 ![Screenshot (668)7](https://github.com/user-attachments/assets/c1a0daa0-4119-4ac9-bdcc-5a4eab181ef4)
 ![Screenshot (669)8](https://github.com/user-attachments/assets/4fe23b7e-c134-48d0-ae90-b2052feec2a8)
 ![Screenshot (670)9](https://github.com/user-attachments/assets/6b0eea79-3f16-4d98-bb4d-0e7dacc7d9ba)
+![Screenshot (676)10](https://github.com/user-attachments/assets/316608c3-77cf-4292-8a85-271d0ece57c7)
+![Screenshot (677)11](https://github.com/user-attachments/assets/91147251-1c6e-4fe6-a2e1-664d6a11a2b8)
+![Screenshot (682)12](https://github.com/user-attachments/assets/8887fbd3-808a-4627-827c-981cff13610a)
+![Screenshot (683)13](https://github.com/user-attachments/assets/4b270a4b-2297-45a9-aa92-2e008a8dcf5b)
+
+![Screenshot (679)16](https://github.com/user-attachments/assets/7385a690-bb6d-46b3-a181-51fe26b98b4e)
+![Screenshot (680)17](https://github.com/user-attachments/assets/f9bdb558-a0d6-4c30-968d-dafb8479181b)
