@@ -53,16 +53,22 @@ Revolutionizing talent acquisition with intelligent automation. Accurately ranks
 - View ranked resumes with scores.
 
 
-
 ## Future Enhancements
+
 - Add resume keyword extraction.
 - Improve UI/UX with better visualizations.
 - Integrate multiple job descriptions for comparison.
 
-
-
 ## Contact
+
 For any queries, reach out via:
 - Email,github: varshithkumar1001@gmail.com
 ![Screenshot (674)1](https://github.com/user-attachments/assets/f3b22538-10d3-4e46-a048-7a56ea6b135f)
-
+![Screenshot (675)2](https://github.com/user-attachments/assets/9deef38d-b658-49c7-93c0-79f476c04f3f)
+![Screenshot (672)3](https://github.com/user-attachments/assets/4478a4e3-1994-4351-ad67-fcd294020caf)
+![Screenshot (673)4](https://github.com/user-attachments/assets/caa8e025-5cc4-4b3b-a862-88f6ff7d68c8)
+![Screenshot (671)5](https://github.com/user-attachments/assets/fe5a8648-90c7-42ed-a46a-31b079886054)
+![Screenshot (667)6](https://github.com/user-attachments/assets/d6bf9a0a-338d-4c68-9ce6-cfa2ce7da3d4)
+![Screenshot (668)7](https://github.com/user-attachments/assets/c1a0daa0-4119-4ac9-bdcc-5a4eab181ef4)
+![Screenshot (669)8](https://github.com/user-attachments/assets/4fe23b7e-c134-48d0-ae90-b2052feec2a8)
+![Screenshot (670)9](https://github.com/user-attachments/assets/6b0eea79-3f16-4d98-bb4d-0e7dacc7d9ba)
