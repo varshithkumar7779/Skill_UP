@@ -66,8 +66,8 @@ Revolutionizing talent acquisition with intelligent automation. Accurately ranks
 For any queries, reach out via:
 - Email,github: varshithkumar1001@gmail.com
 
-#User Panel:
-![Screenshot (674)1](https://github.com/user-attachments/assets/f3b22538-10d3-4e46-a048-7a56ea6b135f)
+## User Panel:
+1. ![Screenshot (674)1](https://github.com/user-attachments/assets/f3b22538-10d3-4e46-a048-7a56ea6b135f)
 ![Screenshot (675)2](https://github.com/user-attachments/assets/9deef38d-b658-49c7-93c0-79f476c04f3f)
 ![Screenshot (672)3](https://github.com/user-attachments/assets/4478a4e3-1994-4351-ad67-fcd294020caf)
 ![Screenshot (673)4](https://github.com/user-attachments/assets/caa8e025-5cc4-4b3b-a862-88f6ff7d68c8)
@@ -79,7 +79,7 @@ For any queries, reach out via:
 ![Screenshot (669)8](https://github.com/user-attachments/assets/4fe23b7e-c134-48d0-ae90-b2052feec2a8)
 ![Screenshot (670)9](https://github.com/user-attachments/assets/6b0eea79-3f16-4d98-bb4d-0e7dacc7d9ba)
 
-#Admin/Recruiter Panel:
+## Admin/Recruiter Panel:
 ![Screenshot (676)10](https://github.com/user-attachments/assets/316608c3-77cf-4292-8a85-271d0ece57c7)
 ![Screenshot (677)11](https://github.com/user-attachments/assets/91147251-1c6e-4fe6-a2e1-664d6a11a2b8)
 ![Screenshot (682)12](https://github.com/user-attachments/assets/8887fbd3-808a-4627-827c-981cff13610a)
