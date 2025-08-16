@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import React from "react";
+import config from '../config/config';
 const RegisterPage = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -20,7 +21,7 @@ const RegisterPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://127.0.0.1:5000/user/register", formData);
+      const response = await axios.post(`${config.backendUrl}/users/register`, formData);
       console.log("Registration Success:", response.data);
       navigate("/");
     } catch (error) {
@@ -31,7 +32,7 @@ const RegisterPage = () => {
 
   return (
     <div className="bg-white flex items-center justify-center h-screen w-screen">
-      <div className="bg-black p-8 rounded-lg shadow-md w-96">
+      <div className="bg-white p-8 rounded-lg shadow-md w-96">
         <h2 className="text-2xl font-bold mb-6 text-center">Register</h2>
         {error && <p className="text-red-500">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">

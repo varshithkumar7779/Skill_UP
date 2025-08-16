@@ -3,12 +3,11 @@ from app.controllers.resumematchercontroller import extract_text, match_resume
 from app.middleware.auth_middleware import verify_jwt
 import io
 
-job_bp = Blueprint("matcher", __name__)
+matcher_bp = Blueprint("matcher", __name__)
 
-@job_bp.route("/resume-matcher", methods=["POST"])
+@matcher_bp.route("/resume-matcher", methods=["POST"])
 @verify_jwt
 def resumematcher():
-    print("ekrjgne")
     try:
         if 'resume' not in request.files:
             return jsonify({"error": "No resume file provided"}), 400

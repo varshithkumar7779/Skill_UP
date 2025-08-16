@@ -4,36 +4,47 @@ import config from "../../config/config";
 
 const JobForm = ({ fetchJobs, setError }) => {
   const [showForm, setShowForm] = useState(false);
-  const [newJob, setNewJob] = useState({
-    title: "", company: "", location: "", salary_range: "",
-    skills_required: "", application_deadline: "", experience_level: "",
-    employment_type: "", description: "", requirements: ""
-  });
+const [newJob, setNewJob] = useState({
+  title: "",
+  company: "",
+  location: "",
+  salary_range: "",
+  skills_required: "",
+  requirements: "",
+  application_deadline: "",
+  experience_level: "",
+  employment_type: "",
+  description: "",
+  status: "Open"
+});
 
-  const handleJobPost = async () => {
-    try {
-      const payload = {
-        ...newJob,
-        skills_required: newJob.skills_required.split(',').map(skill => skill.trim()),
-        requirements: newJob.requirements.split(',').map(req => req.trim()),
-        experience_level: parseInt(newJob.experience_level),
-        application_deadline: new Date(newJob.application_deadline).toISOString()
-      };
 
-      await axios.post(`${config.backendUrl}/jobs/jobs`, payload, { withCredentials: true });
+const handleJobPost = async () => {
+  try {
+    const payload = {
+      ...newJob,
+      skills_required: newJob.skills_required.split(",").map(skill => skill.trim()),
+      requirements: newJob.requirements.split(",").map(req => req.trim()),
+      experience_level: parseInt(newJob.experience_level),
+      application_deadline: new Date(newJob.application_deadline).toISOString(),
+      posted_date: new Date().toISOString(),
+    };
 
-      fetchJobs();
-      setNewJob({
-        title: "", company: "", location: "", salary_range: "",
-        skills_required: "", application_deadline: "", experience_level: "",
-        employment_type: "", description: "", requirements: ""
-      });
-      setShowForm(false);
-      alert("Job posted successfully!");
-    } catch (error) {
-      setError("Failed to post job. Please try again.");
-    }
-  };
+    await axios.post(`${config.backendUrl}/jobs/jobs`, payload, { withCredentials: true });
+
+    fetchJobs();
+    setNewJob({
+      title: "", company: "", location: "", salary_range: "",
+      skills_required: "", requirements: "", application_deadline: "",
+      experience_level: "", employment_type: "", description: "", status: "Open"
+    });
+    setShowForm(false);
+    alert("Job posted successfully!");
+  } catch (error) {
+    setError("Failed to post job. Please try again.");
+  }
+};
+
 
   return (
     <>

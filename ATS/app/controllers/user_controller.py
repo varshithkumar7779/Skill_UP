@@ -38,12 +38,13 @@ def register_user(data):
     """Registers a new user in the database"""
     try:
         schema = UserSchema()
-        errors = schema.validate(data)
-        if errors:
-            return jsonify({"error": "Validation failed", "details": errors}), 400
+        validation_errors = schema.validate(data)
+        print("incoming data:", data)
+        if validation_errors:
+            print("Validation failed:", validation_errors)
+            return jsonify({"error": "Validation failed", "details": validation_errors}), 400
 
         email = data["email"]
-
         if mongo.db.users.find_one({"email": email}):
             return jsonify({"error": "Email already registered"}), 400
 
@@ -59,7 +60,6 @@ def register_user(data):
             "resumes": [],  
             "created_at": datetime.now()
         }
-
         mongo.db.users.insert_one(user_data)
 
         return jsonify({"message": "User registered successfully"}), 201

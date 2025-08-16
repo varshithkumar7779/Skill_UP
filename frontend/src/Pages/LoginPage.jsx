@@ -166,11 +166,15 @@ const LoginPage = () => {
               </label>
             </div>
 
-            <div className="text-sm">
-              <a href="#" className="text-indigo-600 hover:text-indigo-500">
-                Forgot your password?
+            <p className="mt-2 text-center text-sm text-gray-600">
+              Don’t have an account?{' '}
+              <a
+                onClick={() => navigate("/register")}
+                className="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer"
+              >
+                Register here
               </a>
-            </div>
+            </p>
           </div>
 
           <div>
