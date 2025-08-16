@@ -1,6 +1,6 @@
 flask==3.1.0               # For web API
 flask-cors==5.0.1          # To allow cross-origin requests
-spacy==3.6.0               # Core NLP library
+spacy>=3.7.5               # Core NLP library
 scikit-learn==1.6.1        # For TF-IDF vectorizer
 pandas==2.2.3              # For handling resume data (csv/excel)
 numpy==2.2.3               # Required by pandas and scikit-learn
