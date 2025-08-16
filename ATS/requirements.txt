@@ -1,9 +1,9 @@
 flask==3.1.0               # For web API
 flask-cors==5.0.1          # To allow cross-origin requests
 spacy>=3.7.5               # Core NLP library
-scikit-learn==1.6.1        # For TF-IDF vectorizer
+scikit-learn==1.5.2        # For TF-IDF vectorizer (latest stable)
 pandas==2.2.3              # For handling resume data (csv/excel)
-numpy==2.2.3               # Required by pandas and scikit-learn
+numpy==2.1.1               # Required by pandas and scikit-learn (latest stable)
 python-dotenv==1.0.1       # To manage environment variables (optional)
 nltk==3.9.1                # For stopwords/tokenization if needed
 PyMuPDF==1.25.4            # For reading PDFs
